@@ -1,0 +1,13 @@
+Objetivo principal: Criar um portfólio e aproveitá-lo para o curso de git e github
+
+Ideias: 
+
+- Página inicial como o espaço profundo
+- Cada aba (Home, sobre, projetos e contato) referenciadas como planetas 
+- Animação de foguete que vai até o planeta escolhido
+- Animação do planeta aumentando de tamanho ao passar o mouse em cima
+- Breve descrição do planeta ao passar o mouse em cima 
+- Nas abas, o fundo ter a ambientação do respectivo planeta
+- Conteúdo ir carregando conforme a pessoa vai descendo
+- Título que faz a animação de estar digitando..
+- A página home, será o planeta Terra, é de onde irá partir
