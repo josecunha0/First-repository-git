@@ -12,3 +12,8 @@ Ideias:
 - Título que faz a animação de estar digitando..
 - A página home, será o planeta Terra, é de onde irá partir
 - Na aba experiência, colocar que: "Por enquanto esse ainda é um planeta inabitado, mas quem sabe a sua empresa não possa ser a primeira a pisar nele?"
+
+
+-------------------------------------------------------------
+
+Título: print(f"Meu portfólio {dev}") 
