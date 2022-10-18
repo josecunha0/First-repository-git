@@ -1,0 +1,29 @@
+.caixa {
+    display: flex;
+    vertical-align: top;
+}
+
+#imgPerfil {
+    height: 100px;
+    width: 100px;
+}
+
+.navegacao {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#img_rodape {
+    height: 30px;
+    width: 25px;
+    display: inline-block;
+    padding: 7px;
+    margin-right: -8px;
+}
+
+.des {
+    display: inline-block;
+    vertical-align: top;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
