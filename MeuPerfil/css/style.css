@@ -2,6 +2,10 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+h2, p {
+	text-align: center;
+}
+
 #imgPerfil {
     width: 100px;
     height: 100px;
@@ -61,4 +65,11 @@ nav a:hover {
     vertical-align: top;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #0f0f1b;
+	color: #FFFFFF;
 }
