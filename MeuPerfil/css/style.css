@@ -63,6 +63,15 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+#quad1, #quad2, #quad3, #quad4, #quad5, #quad6, #quad7, #quad8 {
+	background-color: rgba(255, 255, 255, 0.5);
+	height: 400px;
+	width: 24.12%;
+	border-radius: 10px;
+	margin: 5px;
+	display: inline-block;
+}
+
 #img_rodape {
     height: 30px;
     width: 25px;
