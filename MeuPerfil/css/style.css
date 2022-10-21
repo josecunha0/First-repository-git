@@ -75,11 +75,13 @@ nav a:hover {
 }
 #quad1, #quad2, #quad3, #quad4, #quad5, #quad6, #quad7, #quad8 {
 	background-color: rgba(255, 255, 255, 0.5);
-	height: 400px;
-	width: 24.12%;
+	height: 100%;
+	width: 50%;
 	border-radius: 10px;
 	margin: 5px;
 	display: inline-block;
+	justify-items: center;
+	padding: 5px;
 }
 #quad9 {
 	background-color: rgba(255, 255, 255, 0.5);
