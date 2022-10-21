@@ -71,6 +71,13 @@ nav a:hover {
 	margin: 5px;
 	display: inline-block;
 }
+#corpo {
+	background-color: rgba(255, 255, 255, 0.5);
+	height: 50px;
+	width: 100%;
+	border-radius: 5px;
+	margin: 10px;
+}
 
 #img_rodape {
     height: 30px;
