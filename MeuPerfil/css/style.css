@@ -73,16 +73,30 @@ nav a:hover {
 	margin-bottom: 10px;
 	padding: 5px 0;
 }
+
+
+#octo1, #octo2, #octo3, #octo4, #octo5, #octo6, #octo7, #octo8 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
 #quad1, #quad2, #quad3, #quad4, #quad5, #quad6, #quad7, #quad8 {
 	background-color: rgba(255, 255, 255, 0.5);
-	height: 100%;
-	width: 50%;
+	height: 400px;
+	width: 24.12%;
 	border-radius: 10px;
 	margin: 5px;
 	display: inline-block;
-	justify-items: center;
-	padding: 5px;
+	position: relative;
 }
+
 #quad9 {
 	background-color: rgba(255, 255, 255, 0.5);
 	height: 800px;
