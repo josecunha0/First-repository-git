@@ -16,12 +16,9 @@ body {
 	height: 100%;
 }
 
-h2, p {
-	text-align: center;
-}
+
 
 h1 {
-	display: ;
 	font-family: 'Arial';
 	font-style: normal;
 	font-weight: 400;
@@ -54,6 +51,7 @@ header {
 	/* Note: backdrop-filter has minimal browser support */
 	
 	border-radius: 5px;
+	margin-bottom: 5px;
 }
 
 .caixa {
@@ -79,7 +77,7 @@ nav li {
 
 nav a {
 	
-	font-family: 'Inter';
+	font-family: 'Arial';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 22px;
@@ -93,49 +91,6 @@ nav a {
 nav a:hover {
 	color: #38B6FF;
 	text-decoration: underline;
-}
-
-#corpo {
-	background-color: rgba(255, 255, 255, 0.5);
-	height: 225px;
-	width: 99.5%;
-	border-radius: 5px;
-	margin: 5px;
-	display: inline-block;
-	margin-bottom: 10px;
-	padding: 5px 0;
-}
-
-
-#octo1, #octo2, #octo3, #octo4, #octo5, #octo6, #octo7, #octo8 {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-
-#quad1, #quad2, #quad3, #quad4, #quad5, #quad6, #quad7, #quad8, #quadw, #quadx, #quady, #quadz {
-	background-color: rgba(255, 255, 255, 0.5);
-	height: 400px;
-	width: 24.12%;
-	border-radius: 10px;
-	margin: 5px;
-	display: inline-block;
-	position: relative;
-}
-
-#quad9 {
-	background-color: rgba(255, 255, 255, 0.5);
-	height: 800px;
-	width: 99.5%;
-	border-radius: 10px;
-	margin: 5px;
-	display: inline-block;
 }
 
 #img_rodape {
