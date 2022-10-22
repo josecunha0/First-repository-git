@@ -93,25 +93,61 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-#img_rodape {
-    height: 30px;
-    width: 25px;
-    display: inline-block;
-    padding: 7px;
-    margin-right: -8px;
+#caixaDoSobre {
+	position: absolute;
+	left: 4.13%;
+	right: 4.25%;
+	top: 24.23%;
+	bottom: 13.65%;
+
+	background: rgba(35, 54, 90, 0.6);
+	backdrop-filter: blur(2px);
+
+	border-radius: 10px;
 }
 
-.des {
-    display: inline-block;
-    vertical-align: top;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-}
+#textoSobre {
+	position: absolute;
+	left: 8.6%;
+	right: 37.43%;
+	top: 38.23%;
+	bottom: 27.47%;
 
-footer {
-	text-align: center;
-	padding: 10px;
-	background-color: rgba(15, 15, 27, 0.5);
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+
 	color: #FFFFFF;
+}
+
+#caixaNome {
+	position: absolute;
+	left: 69.94%;
+	right: 7.71%;
+	top: 59.22%;
+	bottom: 36.18%;
+
+	background: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(2px);
+
 	border-radius: 5px;
+}
+
+#nomePerfil {
+	position: absolute;
+	left: 73.74%;
+	right: 11.62%;
+	top: 57.5%;
+	bottom: 37.37%;
+
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 22px;
+
+	color: #000000;
+	text-align: center;
 }
