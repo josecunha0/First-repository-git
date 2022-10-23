@@ -1,5 +1,4 @@
 body {
-	font-family: 'Montserrat', sans-serif;
 	background-image: url("/MeuPerfil/imagens/background.jpg");
 }
 
@@ -16,32 +15,27 @@ body {
 	height: 100%;
 }
 
-
-
 h1 {
 	position: absolute;
-	left: 0.72%;
-	right: 91.41%;
-	top: 4.74%;
-	bottom: 90.53%;
+	
 	
 	font-family: 'Maiden Orange';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 48px;
-	line-height: 48px;
+	line-height: 20px;
 	color: #FFFFFF;
-	margin-top: 0%;
-	margin-left: 0;
+	margin-top: 5;
+	margin-left: 15px;
+	padding-right: 0%;
+	margin-right: 0;
+	padding-left: 20px;
 
 }
 
 #segundaLinha {
 	position: absolute;
-	left: 0.72%;
-	right: 71.47%;
-	top: 9.74%;
-	bottom: 85.53%;
+	
 	
 	font-family: 'Maiden Orange';
 	font-style: normal;
@@ -50,6 +44,9 @@ h1 {
 	line-height: 48px;
 	color: #FFFFFF;
 	line-height: 120px;
+	padding-right: 0%;
+	margin-left: 15px;
+	margin-right: 0;
 }
 
 header {
@@ -63,42 +60,104 @@ header {
 	backdrop-filter: blur(2px);
 	
 	border-radius: 5px;
-}
-
-.caixa {
-	position: absolute;
-	width: 90%;
-	margin-top: 22px;
-	margin-left: 33px;
-	padding: 0;
+	
 }
 
 nav {
-	position: relative;
-	top: 0px;
-	right: 0;
-    justify-items: center;
-	text-align: right;
-	
+	display: inline-block;
 }
 
 nav li {
-	display: inline;
-	margin: 0 0 0 15px;
-}
-
-nav a {
-	font-family: 'Arial';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 22px;
-	line-height: 17px;
-	text-decoration-line: underline;
-	color: #FFFFFF;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	display: flex;
+	margin: 75px 0 0 15px;
+	
 	
 }
 
+nav a {
+	position: absolute;
+	top: 12.76%;
+	bottom: 84.34%;
+	font-family: 'Maiden Orange';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+	text-decoration-line: underline;
+	color: #FFFFFF;
+}
+
+#sobre {
+	position: absolute;
+	left: 62.88%;
+	right: 33.21%;
+	top: 12.76%;
+	bottom: 84.34%;
+
+	font-family: 'Maiden Orange';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+	text-decoration-line: underline;
+	color: #FFFFFF;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#projetos {
+	position: absolute;
+	left: 70.32%;
+	right: 23.85%;
+	top: 12.76%;
+	bottom: 84.34%;
+
+	font-family: 'Maiden Orange';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+	text-decoration-line: underline;
+
+	color: #FFFFFF;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#experiencia {
+	position: absolute;
+	left: 79.68%;
+	right: 12.63%;
+	top: 12.76%;
+	bottom: 84.61%;
+
+	font-family: 'Maiden Orange';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+	text-decoration-line: underline;
+
+	color: #FFFFFF;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#contato{
+	position: absolute;
+	left: 90.9%;
+	right: 3.85%;
+	top: 12.76%;
+	bottom: 84.61%;
+
+	font-family: 'Maiden Orange';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+	text-decoration-line: underline;
+
+	color: #FFFFFF;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 nav a:hover {
 	color: #38B6FF;
@@ -111,55 +170,87 @@ nav a:hover {
 	right: 4.25%;
 	top: 24.23%;
 	bottom: 13.65%;
-
+	
 	background: rgba(35, 54, 90, 0.6);
 	backdrop-filter: blur(2px);
 
+	
 	border-radius: 10px;
 }
 
 #textoSobre {
 	position: absolute;
-	left: 8.6%;
-	right: 37.43%;
-	top: 38.23%;
-	bottom: 27.47%;
-
+	left: 10.77%;
+	right: 35.26%;
+	top: 33.42%;
+	bottom: 23.29%;
+	
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 22px;
-
+	
 	color: #FFFFFF;
 }
 
 #caixaNome {
 	position: absolute;
-	left: 69.94%;
-	right: 7.71%;
-	top: 59.22%;
-	bottom: 36.18%;
-
+	left: 71.92%;
+	right: 11.6%;
+	top: 62.37%;
+	bottom: 32.89%;
+	
 	background: rgba(255, 255, 255, 0.5);
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 	backdrop-filter: blur(2px);
-
+	
 	border-radius: 5px;
 }
 
 #nomePerfil {
 	position: absolute;
-	left: 73.74%;
-	right: 11.62%;
-	top: 57.5%;
-	bottom: 37.37%;
-
+	left: 75.51%;
+	right: 15.13%;
+	top: 63.29%;
+	bottom: 33.82%;
+	
 	font-family: 'Arial';
 	font-style: normal;
-	font-weight: 600;
-	font-size: 22px;
-	line-height: 22px;
-
+	font-weight: 400;
+	font-size: 31px;
+	line-height: 31px;
+	
 	color: #000000;
 	text-align: center;
+}
+
+
+#icon_map {
+	width: 31.37;
+	height: 23.34;
+
+	position: absolute;
+	left: 73.01%;
+	right: 25.53%;
+	top: 68.82%;
+	bottom: 28.11%;
+
+	opacity: 0.95;
+}
+
+#textMap {
+	position: absolute;
+	left: 75.26%;
+	right: 14.42%;
+	top: 69.21%;
+	bottom: 28.42%;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #FFFFFF;
 }
