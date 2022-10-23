@@ -194,6 +194,18 @@ nav a:hover {
 	color: #FFFFFF;
 }
 
+#caixaImg {
+	position: absolute;
+	left: 71.92%;
+	right: 11.6%;
+	top: 33.42%;
+	bottom: 32.89%;
+
+	background: rgba(217, 217, 217, 0.05);
+	box-shadow: 0px 0px 3px #000000;
+	border-radius: 5px;
+}
+
 #caixaNome {
 	position: absolute;
 	left: 71.92%;
