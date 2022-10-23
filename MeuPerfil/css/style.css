@@ -19,24 +19,37 @@ body {
 
 
 h1 {
-	font-family: 'Arial';
+	position: absolute;
+	left: 3.72%;
+	right: 91.41%;
+	top: 4.74%;
+	bottom: 90.53%;
+	
+	font-family: 'Maiden Orange';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 32px;
-	line-height: 39px;
-	align-items: baseline;
-	line-height: 20%;
-
+	font-size: 48px;
+	line-height: 48px;
 	color: #FFFFFF;
+	margin-top: 0%;
+	margin-left: 0;
 
 }
 
 #segundaLinha {
-	position: relative;
-	margin-top: 5px;
-	padding: 0;
-	line-height: 20%;
-
+	position: absolute;
+	left: 3.72%;
+	right: 71.47%;
+	top: 9.74%;
+	bottom: 85.53%;
+	
+	font-family: 'Maiden Orange';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 48px;
+	color: #FFFFFF;
+	line-height: 120px;
 }
 
 header {
@@ -48,10 +61,8 @@ header {
 	
 	background: rgba(35, 54, 90, 0.45);
 	backdrop-filter: blur(2px);
-	/* Note: backdrop-filter has minimal browser support */
 	
 	border-radius: 5px;
-	margin-bottom: 5px;
 }
 
 .caixa {
