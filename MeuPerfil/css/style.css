@@ -19,7 +19,7 @@ h1 {
 	position: absolute;
 	
 	
-	font-family: 'Maiden Orange';
+	font-family: 'Arial';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 48px;
@@ -37,7 +37,7 @@ h1 {
 	position: absolute;
 	
 	
-	font-family: 'Maiden Orange';
+	font-family: 'Arial';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 48px;
@@ -78,7 +78,7 @@ nav a {
 	position: absolute;
 	top: 12.76%;
 	bottom: 84.34%;
-	font-family: 'Maiden Orange';
+	font-family: 'Arial';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
@@ -94,7 +94,7 @@ nav a {
 	top: 12.76%;
 	bottom: 84.34%;
 
-	font-family: 'Maiden Orange';
+	font-family: 'Arial';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
@@ -111,7 +111,7 @@ nav a {
 	top: 12.76%;
 	bottom: 84.34%;
 
-	font-family: 'Maiden Orange';
+	font-family: 'Arial';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
@@ -129,7 +129,7 @@ nav a {
 	top: 12.76%;
 	bottom: 84.61%;
 
-	font-family: 'Maiden Orange';
+	font-family: 'Arial';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
@@ -147,7 +147,7 @@ nav a {
 	top: 12.76%;
 	bottom: 84.61%;
 
-	font-family: 'Maiden Orange';
+	font-family: 'Arial';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
@@ -218,6 +218,18 @@ nav a:hover {
 	border-radius: 5px;
 }
 
+#nomePerfil {
+	position: absolute;
+	left: 71.92%;
+	right: 11.6%;
+	top: 59%;
+	bottom: 32.89%;
+	font-family: Arial, Helvetica, bold;
+	font-size: 28px;
+	text-align: center;
+	
+}
+
 #caixaNome {
 	position: absolute;
 	left: 71.92%;
@@ -232,22 +244,7 @@ nav a:hover {
 	border-radius: 5px;
 }
 
-#nomePerfil {
-	position: absolute;
-	left: 75.51%;
-	right: 15.13%;
-	top: 63.29%;
-	bottom: 33.82%;
-	
-	font-family: 'Arial';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 31px;
-	line-height: 31px;
-	
-	color: #000000;
-	text-align: center;
-}
+
 
 
 #icon_map {
@@ -260,7 +257,7 @@ nav a:hover {
 	top: 68.82%;
 	bottom: 28.11%;
 
-	opacity: 0.95;
+	opacity: 0.85;
 }
 
 #textMap {
@@ -277,6 +274,7 @@ nav a:hover {
 	line-height: 0px;
 
 	color: #FFFFFF;
+	opacity: 0.85;
 
 }
 
@@ -291,7 +289,7 @@ nav a:hover {
 	bottom: 23.24%;
 
 	
-	opacity: 0.95;
+	opacity: 0.85;
 }
 
 #textAniv {
@@ -308,5 +306,6 @@ nav a:hover {
 	line-height: 0px;
 
 	color: #FFFFFF;
+	opacity: 0.85;
 
 }
