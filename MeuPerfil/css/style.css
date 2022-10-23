@@ -1,8 +1,19 @@
 body {
-	background-image: url("/MeuPerfil/imagens/background.jpg");
+	cursor: url(/MeuPerfil/imagens/cursor/rocket_3.png), default;
+	cursor: url(/MeuPerfil/imagens/cursor/rocket_3.png), pointer;
+	background-image: url(/MeuPerfil/imagens/background.jpg);
+	background-size: 100%;
 }
 
-.tracker {
+.fundo {
+	background-color: white;
+	width: 100%;
+	height: 745px;
+	opacity: 0;
+}
+
+
+/*tracker {
 	position: fixed;
 	transform: translate(-50%, -50%);
 	width: 40px;
@@ -13,7 +24,7 @@ body {
 .tracker svg{
 	width: 100%;
 	height: 100%;
-}
+}*/
 
 h1 {
 	position: absolute;
@@ -61,15 +72,18 @@ header {
 	
 	border-radius: 5px;
 	
+	
 }
 
 nav {
 	display: inline-block;
+	
 }
 
 nav li {
 	display: flex;
 	margin: 75px 0 0 15px;
+	
 	
 	
 }
@@ -85,6 +99,7 @@ nav a {
 	line-height: 24px;
 	text-decoration-line: underline;
 	color: #FFFFFF;
+	cursor: url(/MeuPerfil/imagens/cursor/rocket_3.png), pointer;
 }
 
 #sobre {
