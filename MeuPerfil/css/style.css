@@ -227,8 +227,8 @@ nav a:hover {
 
 
 #icon_map {
-	width: 31.37;
-	height: 23.34;
+	width: 22.66px;
+	height: 23.34px;
 
 	position: absolute;
 	left: 73.01%;
@@ -243,14 +243,46 @@ nav a:hover {
 	position: absolute;
 	left: 75.26%;
 	right: 14.42%;
-	top: 69.21%;
+	top: 68.2%;
 	bottom: 28.42%;
 
-	font-family: 'Inter';
+	font-family: 'Arial';
 	font-style: normal;
-	font-weight: 300;
+	font-weight: lighter;
 	font-size: 16px;
-	line-height: 19px;
+	line-height: 0px;
 
 	color: #FFFFFF;
+
+}
+
+#icon_aniv {
+	width: 31.37px;
+	height: 23.34px;
+
+	position: absolute;
+	left: 72.69%;
+	right: 25.3%;
+	top: 73.68%;
+	bottom: 23.24%;
+
+	
+	opacity: 0.95;
+}
+
+#textAniv {
+	position: absolute;
+	left: 75.26%;
+	right: 17.88%;
+	top: 74.08%;
+	bottom: 23.55%;
+
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 15px;
+	line-height: 0px;
+
+	color: #FFFFFF;
+
 }
