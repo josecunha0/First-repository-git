@@ -75,6 +75,68 @@ header {
 	
 }
 
+#botaoSobre {
+	position: absolute;
+	left: 62.88%;
+	right: 33.21%;
+	top: 12.76%;
+	bottom: 84.34%;
+	width: 65.5px;
+	height: 26px;
+	background-color:  #FFFFFF;
+	margin: 75px 0 0 15px;
+	border-radius: 5px;
+
+}
+#botaoProjetos {
+	position: absolute;
+	left: 70.32%;
+	right: 23.85%;
+	top: 12.76%;
+	bottom: 84.34%;
+	width: 91px;
+	height: 26px;
+	background-color:  #FFFFFF;
+	margin: 75px 0 0 15px;
+	border-radius: 5px;
+
+}
+#botaoExperiencia {
+	position: absolute;
+	left: 79.68%;
+	right: 12.63%;
+	top: 12.76%;
+	bottom: 84.61%;
+	width: 124px;
+	height: 26px;
+	background-color:  #FFFFFF;
+	margin: 75px 0 0 15px;
+	border-radius: 5px;
+
+}
+#botaoContato {
+	position: absolute;
+	left: 90.9%;
+	right: 3.85%;
+	top: 12.76%;
+	bottom: 84.61%;
+	width: 84px;
+	height: 26px;
+	background-color:  #FFFFFF;
+	margin: 75px 0 0 15px;
+	border-radius: 5px;
+	
+}
+
+.botoes{
+	opacity: .5;
+    transition: opacity .5s ease-out;
+}
+
+botoes:hover {
+	opacity: 1;
+}
+
 nav {
 	display: inline-block;
 	
@@ -172,11 +234,9 @@ nav a {
 }
 
 nav a:hover {
-	color: rgb(36, 144, 216);
-	background-color: #FFFFFF!important;
-	box-sizing: border-box;
-    transform: scale(1.1); 
-	transition-duration: 1s;
+	color: rgb(0, 0, 0);
+    /*transform: scale(1.1); 
+	transition-duration: 1s;*/
 	
 }
 
