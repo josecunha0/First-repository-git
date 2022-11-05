@@ -6,10 +6,13 @@ body {
 }
 
 .fundo {
+	position: absolute;
 	background-color: white;
 	width: 100%;
 	height: 745px;
 	opacity: 0;
+	left: 0;
+	top: 0;
 }
 
 
