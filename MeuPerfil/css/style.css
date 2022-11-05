@@ -3,6 +3,15 @@ body {
 	cursor: url(/MeuPerfil/imagens/cursor/rocket_3.png), pointer;
 	background-image: url(/MeuPerfil/imagens/background.jpg);
 	background-size: 100%;
+	min-width: 320px;
+	max-width: 1220px;
+}
+main {
+	min-width: 320px;
+	max-width: 1220px;
+}
+img {
+	width: 100%;
 }
 
 .fundo {
@@ -14,20 +23,6 @@ body {
 	left: 0;
 	top: 0;
 }
-
-
-/*tracker {
-	position: fixed;
-	transform: translate(-50%, -50%);
-	width: 40px;
-	z-index: 9999;
-	pointer-events: none;
-	transition: all .15s;
-  }
-.tracker svg{
-	width: 100%;
-	height: 100%;
-}*/
 
 h1 {
 	position: absolute;
@@ -252,7 +247,6 @@ nav a:hover {
 	background: rgba(35, 54, 90, 0.6);
 	backdrop-filter: blur(2px);
 
-	
 	border-radius: 10px;
 }
 
@@ -260,13 +254,13 @@ nav a:hover {
 	position: absolute;
 	left: 10.77%;
 	right: 35.26%;
-	top: 33.42%;
+	top: 31.42%;
 	bottom: 23.29%;
 	
-	font-family: 'Inter';
+	font-family: 'Roboto Mono', monospace;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 22px;
 	
 	color: #FFFFFF;
@@ -428,4 +422,11 @@ nav a:hover {
 	color: #FFFFFF;
 
 	text-shadow: 0px 0.5px 2px #000000;
+}
+
+@media screen and (max-width: 768px) {
+	.Sobre{
+		width: 100%;
+		height: 100%;
+	}
 }
