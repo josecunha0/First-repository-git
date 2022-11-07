@@ -425,10 +425,6 @@ a:active {
 	}
 }
 
-.container {
-	display: none;
-	display: block;
-}
 
 /* RESET RULES
 ––––––––––––––––––––––––––––––––––––––––––––––––––---------------------------------------------------------------------------------------------- */
@@ -480,11 +476,14 @@ a:active {
   }
   
   .container {
+	position: absolute;
 	max-width: 450px;
 	padding: 0 20px;
 	margin: 0 auto;
+	top: 300px;
   }
-  
+
+
   /* SLIDESHOW
   ––––––––––––––––––––––––––––––––––––––––––––––––––------------------------------------------------------------------------------------------- */
   .featured-wrapper {
@@ -529,7 +528,7 @@ a:active {
   
   .featured-wrapper .dots {
 	position: absolute;
-	bottom: 10px;
+	bottom: 45px;
 	left: 50%;
 	transform: translateX(-50%);
 	display: flex;
