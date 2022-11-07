@@ -130,10 +130,6 @@ header {
     transition: opacity .5s ease-out;
 }
 
-botoes:hover {
-	opacity: 1;
-}
-
 nav {
 	display: inline-block;
 	
@@ -159,6 +155,10 @@ nav a {
 	text-decoration: none;
 	color: #FFFFFF;
 	cursor: url(/MeuPerfil/imagens/cursor/rocket_3.png), pointer;
+}
+
+a:active {
+	transform: scale(0.98);
 }
 
 #sobre {
@@ -230,12 +230,6 @@ nav a {
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-nav a:hover {
-	color: rgb(0, 0, 0);
-    /*transform: scale(1.1); 
-	transition-duration: 1s;*/
-	
-}
 
 #caixaDoSobre {
 	position: absolute;
